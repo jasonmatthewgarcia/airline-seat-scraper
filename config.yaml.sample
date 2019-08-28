@@ -1,0 +1,19 @@
+selenium:
+  chromedriver_path: 'path to chromedriver'
+  website_home: https://book.cebupacificair.com/
+
+email:
+  port: 465
+  smtp_server: smtp.gmail.com
+  sender_email: youremail@gmail.com
+  password: your password
+  receiver_emails: 
+    - test1@gmail.com
+    - test2@gmail.com
+    - test3@yahoo.com
+    
+flight:
+  origin: Manila
+  destination: Osaka
+  start_date: 09-01-19 #mm-dd-yy
+  number_of_weeks: 16s
